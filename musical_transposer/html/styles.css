@@ -1,0 +1,76 @@
+/*element selectors: */
+body {
+  background: #1F2833
+}
+
+.Title {
+  text-align: center;
+}
+
+.trans,
+.text-a {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.text-a {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#text-area {
+  background-color: #C5C6C7;
+  color: white;
+}
+
+#submit_button,
+#TransUp_button,
+#TransDown_button {
+  background-color: #55BCC9;
+  border: none;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#userTextField {
+  background-color: #C5C6C7;
+  padding: 7px 15px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: #66FCF1
+}
+
+
+.footer {
+  color: #55BCC9;
+  text-align: center;
+  font-size: large;
+  margin-top: 100px;
+}
+
+
+pre {
+  font-size: large;
+  font-weight: bold;
+  font-family: "Courier", Monospace;
+  color: blue;
+}
+
+.chord {
+  font-weight: bold;
+  color: green;
+}

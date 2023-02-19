@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Musical Transposer</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+  <div class="Title">
+    <h1>Musical Transposer<h1></h1>
+  </div>
+  
+  <div class="text-a">
+    <div>
+      <input type="text" id="userTextField" name="userTextField" value="" size="60" />
+      <input type="button" id="submit_button" value="Submit Request">
+    </div>
+    <div id="text-area" class >
+
+    </div>
+  </div>
+  
+  <div class="trans">
+    <input type="button" id="TransUp_button" value="Transpose Up" onclick="transpose('up')">
+    <input type="button" id="TransDown_button" value="Transpose Down" onclick="transpose('down')">
+  </div>
+
+  <div class="footer">
+    <p>Rafeed Nazmul</p>
+  </div>
+
+
+  
+  
+
+  <script src='client.js'></script>
+  <script src='chords.js'></script>
+  <script src='buttonHandlers.js'></script>
+  <script src='eventListeners.js'></script>
+
+</body>
+</html>
